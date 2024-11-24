@@ -11,7 +11,7 @@ const TalebPage = () => {
   const dispatch = useDispatch()
 
   useEffect(() => {
-    axios.get('https://mawgod.vercel.app/api2').then(res => {
+    axios.get('https://ana-mawgod.vercel.app/api2').then(res => {
       console.log(JSON.parse(res.data.Cont).nums)
       dispatch(addCode(JSON.parse(res.data.Cont).nums))
     })

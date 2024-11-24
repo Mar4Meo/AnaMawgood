@@ -11,7 +11,7 @@ const Mo3alemPage = () => {
   const [numOfCode, setNumOfCode] = useState()
 
   const sendCode = (nums) => {
-    axios.post('https://mawgod.vercel.app/api', { nums: nums || 1 }).then(res => {
+    axios.post('https://ana-mawgod.vercel.app/api', { nums: nums || 1 }).then(res => {
       return res
     }).catch(err => {
       console.log(err)
