@@ -1,0 +1,70 @@
+@import url(https://fonts.googleapis.com/earlyaccess/lateef.css); 
+
+
+.mo3alem-page {
+  height: 100vh;
+  overflow: hidden;
+}
+
+.mo3alem-page .mostatel {
+  background: #fff;
+  height: 93%;
+  width: 90%;
+  position: relative;
+  top: 3.5%;
+  left: 5%;
+  border-radius: 20px;
+}
+
+
+.mo3alem-page section {
+  font-family: 'Lateef', serif;
+  position: relative;
+  top: 23vh;
+  text-align: center;
+  font-size: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 50%;
+  left: 25%;
+  gap: 24px;
+}
+
+.mo3alem-page section h1 {
+  margin-bottom: 10px;
+}
+
+.mo3alem-page section input {
+  outline: none;
+  border: 1px dotted #000;
+  width: 60%;
+  margin: 50px 0;
+  padding: 20px 20px;
+  border-radius: 15px;
+  text-align: end;
+  font-size: 45px;
+  border-top: none;
+  border-bottom: none;
+  text-align: center;
+  font-weight: bold;
+}
+
+.mo3alem-page section input::placeholder {
+  font-size: 34px;
+  position: relative;
+  top: -2px;
+  opacity: 0.5;
+  font-weight: normal;
+  text-align: end;
+}
+
+.mo3alem-page section button {
+  outline: none;
+  border: 1px solid #eee;
+  padding: 10px 40px;
+  border-radius: 10px;
+  background-color: #4472C4;
+  color: #fff;
+  font-weight: bold;
+}

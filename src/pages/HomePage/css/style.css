@@ -1,0 +1,91 @@
+.home {
+  position: relative;
+  background-image: url("../../../public/images/Splash.png");
+  background-size: cover;
+  background-position: 40%;
+  height: 100vh;
+  transform: scale(0.92);
+  border-radius: 50px;
+  border: 30px solid #fff;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.home header p {
+  /* font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 80px;
+  position: relative;
+  top: 100px;
+  color: #3d75ae;
+}
+
+.home header p span:first-child {
+  font-size: 170px;
+  word-spacing: -25px;
+  text-shadow: 1px 1px 4px rgb(139, 149, 81), -1px -1px 4px rgb(139, 149, 81);
+}
+
+.home header p span:nth-child(3) {
+  margin-top: -10px;
+  /* margin-bottom: 5px; */
+  opacity: 0.8;
+  text-shadow: 1px 1px 5px goldenrod;
+}
+
+.home header p span:last-child {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.home footer {
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  bottom: 50px;
+  width: 96%;
+}
+
+.home footer img {
+  width: 270px;
+}
+
+.home footer .taleb-div {
+  position: relative;
+}
+
+.home footer .taleb-div p {
+  position: absolute;
+  color: #3d75ae;
+  font-size: 67px;
+  z-index: 10;
+  top: -2%;
+  left: 51%;
+  font-style: italic;
+}
+
+.home footer .taleb-div .taleb-img {
+  position: relative;
+  left: 100px;
+  top: -40px;
+}
+
+.home footer .mo3alem-div {
+  position: relative;
+}
+
+.home footer .mo3alem-div p {
+  position: absolute;
+  color: #3d75ae;
+  font-size: 68px;
+  z-index: 10;
+  top: 27%;
+  left: 20%;
+  font-style: italic;
+}
+
+.home footer .mo3alem-div .mo3alem-img {
+  position: relative;
+}
+
+/* ffe7be */

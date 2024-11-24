@@ -1,0 +1,188 @@
+@import url(https://fonts.googleapis.com/earlyaccess/lateef.css); 
+
+.check-page {
+  height: 100vh;
+  overflow: hidden;
+}
+
+.check-page .mostatel {
+    background: #fff;
+    height: 93%;
+    width: 90%;
+    position: relative;
+    top: 3.5%;
+    left: 5%;
+    border-radius: 20px;
+}
+
+.check-page header {
+  display: flex;
+  justify-content: space-between;
+  padding: 30px 40px;
+}
+
+.check-page header span, .check-page header i {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 45px;
+  background-size: contain;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -moz-text-fill-color: transparent;
+  -webkit-text-fill-color: transparent;
+  background-image: url(../../../public/images/frame.png);
+}
+
+.check-page header i {
+  font-size: 70px;
+}
+
+.check-page section form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 22vh;
+  font-family: 'Lateef', serif;
+}
+
+.check-page section form label {
+  font-size: 65px;
+  align-self: flex-end;
+  position: relative;
+  right: 19%;
+  color: #4472C4;
+  text-shadow: 1px 1px 2px #000;
+}
+
+.check-page section form input {
+  outline: none;
+  border: 1px dotted #000;
+  width: 60%;
+  margin: 50px 0;
+  padding: 20px 20px;
+  border-radius: 15px;
+  text-align: end;
+  font-size: 45px;
+  border-top: none;
+  border-bottom: none;
+  text-align: center;
+  font-weight: bold;
+}
+
+.check-page section form input::placeholder {
+  font-size: 34px;
+  position: relative;
+  top: -2px;
+  opacity: 0.5;
+  font-weight: normal;
+  text-align: end;
+}
+
+.check-page section form div {
+  align-self: flex-start;
+  position: relative;
+  right: -15%;
+  top: -20px;
+  padding: 30px;
+}
+
+.check-page section form div span {
+  position: absolute;
+  top: 48%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 50px;
+  font-style: italic;
+  font-weight: bold;
+  color: #fff;
+}
+
+.check-page .popup {
+  position: absolute;
+  top: 0;
+  height: 90vh;
+  font-size: 90px;
+  background-color: #ffffff79;
+  color: #C00000;
+  text-shadow: 1px 1px 2px #000;
+  width: 90%;
+  margin-left: 5%;
+  text-align: center;
+  border-radius: 20px;
+  font-family: 'Lateef', serif;
+  z-index: 100;
+  visibility: hidden;
+  opacity: 0;
+}
+
+.check-page .popup.show {
+  visibility: visible;
+  opacity: 1;
+}
+
+.check-page .popup div {
+  position: relative;
+  top: 10vh;
+  height: 20vh;
+  border-radius: 20px;
+  padding-top: 20px;
+  box-shadow: 0 0 10px 10px #e7e7e7;
+}
+
+.check-page .popup div p:last-child {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  margin: 40px 0;
+  gap: 30px;
+  color: #fff;
+}
+
+.check-page .popup div p:last-child span {
+  padding: 5px 20px;
+  border-top-left-radius: 10px 20px;
+  border-bottom-left-radius: 10px 20px;
+  border-top-right-radius: 10px 20px;
+  transform: scale(0.8);
+  margin-left: -20px;
+  opacity: 0.9;
+}
+
+.check-page .popup div p:last-child span:hover {
+  opacity: 1;
+}
+
+.check-page .popup div p:last-child span:last-child {
+  background-color: #4472C4;
+  position: relative;
+  left: -10px;
+}
+
+.check-page .popup div p:last-child span:first-child {
+  background-color: red;
+}
+
+.check-page .popup span {
+  font-size: 50px;
+}
+
+.check-page footer {
+  position: fixed;
+  text-align: center;
+  bottom: 6vh;
+  font-size: 45px;
+  width: 90%;
+  direction: rtl;
+  font-weight: normal;
+  font-family: 'Lateef', serif;
+}
+
+.check-page footer span {
+  color: #C00000;
+  font-weight: bold;
+}
+
+.check-page footer > span:first-child {
+  text-shadow: 1px 1px 2px #000;
+  font-size: 50px;
+}
